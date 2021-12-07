@@ -1,3 +1,3 @@
 # Tady bude čti mě
 
-A další text k tomuhle super kurzu, až zjistím url :)
+Tak tady je url, kde je napsáno, co se tady zatím naučíte! (https://vojtatranta.github.io/kurz-web/)[https://vojtatranta.github.io/kurz-web/]
