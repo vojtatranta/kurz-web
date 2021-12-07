@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Učíme se Javascript a HTML s Vojtou (protože nemá vadu řeči) 7.12.2021</title>
+  </head>
+  <body>
+    <h1>Učíme se programovat na Webu s Vojtou (protože nemá vadu řeči) 7.12.2021!</h1>
+    <p>Proč se učit "programovat na webu"? No protože to je úplně ta nejjedndušší a nejdostupnější cesta, jak si vyzkoušet programování. <br> Není k tomu potřeba vůbec nic. Jenom textový editor a prohlížeč. Takto se dá vytvořit dospělá aplikace na prakticky jakoukoliv platformu (kromě 'strojů'). <br> Tady nejde o to říkat, že web a javascript jsou nejlepší na světě, ale jde o to si to vyzkoušet co nejsnáž a co nejrychleji!</p>
+    <p>V tomhle geniálním kurzu se naučíme následující věci:
+      <ul>
+        <li>Ty nejzákladnější HTML elementy!</li>
+        <li>Naučíme se stylovat s CSS!</li>
+        <li>Co je to Javascript a k čemu je učitečný</li>
+        <li>Javascriptové API prohlížeče</li>
+        <li>Možná si dokonce uděláme vlastní webový server!</li>
+        <li>
+          Jak si napsat vlastní krutopřísnou webovou stránku!
+        </li>
+      </ul>
+
+
+
+      <div>
+        <button onclick='kliknulJsem();'>Jdeme na to!</button>
+      </div>
+    </p>
+
+    <h2>Začínáme s Webem</h2>
+    <p>Co je to HTML, jak to vypadá, co to znamená</p>
+    <ul>
+      <li>Otevřít webovou stránku <a href="http://idnes.cz">idnes.cz</a></li>
+      <li>Ukázat zdroják</li>
+      <li>Vysvětlit, co to vlastně ten web je, že to prostě jenom stahuje soubor ze serveru</li>
+      <li>Ukázat, jak jde měnit zdroják stránek tak, že se ty stránky přímo vykreslí jinak v prohlížeči</li>
+      <li>Vysvětlit, že HTML je jenom text, který je graficky interpretován prohlížečem a že to samé funguje i pro .mp3 soubory</li>
+      <li>Otevřít .mp3 v codu, ukázat, že i to je 'kod' a říct, že se textový editor snaží interpretovat nuly a jedničky jako text, přitom to je hudba</li>
+      <li>Říct, že weby jsou dynamické a statické. Když se requestne stránka, tak se většinou sestavuje, soubory prostě někde leží na serveru</li>
+      <li>Napsat si HTML stránku se základními tagy (html, head, body, hx, p, div, span, strong, i, ul, li), ukázat, jak se píše html, ukázat základní HTML tagy</li>
+    </ul>
+
+    <h3>CSS</h3>
+    <p>Podíváme se na to, jak weby dostávají vzhled, který dneska mají</p>
+
+    <ul>
+      <li>Ukázat, jak vypadá stylování v dev tools</li>
+      <li>Ukázat, jak se linkuje stylovací soubor</li>
+      <li>Ukázat selektorky podle názvu elementu</li>
+      <li>Ukázat atributy HTML elementů</li>
+      <li>Ukázat selektory na základně HTML atributů</li>
+    </ul>
+
+    <h3>Javascript</h3>
+    <p>Hurá, zjistíme, jak se dají rozpohybovat webové stránky na klientovi.</p>
+
+    <ul>
+      <li>Vysvětlit, co je to klient a co je to server. Klient je ten, kde se konzumuje to, co poskytuješ.</li>
+      <li>Ukázat promměnné, základní typy: číslo, string</li>
+      <li>Operaci s typy: s číslem sčítání a odčítáný proměnných</li>
+      <li>Ukázat to, že proměnné jsou vidět v konzoli dev tools pod globální proměnnou (a říct, že tohle se týká closures, ale to necháme na jindy)</li>
+      <li>udělat program <strong>Na co jsi kliknul</strong>:
+        <ul>
+          <li>Vysvětlit v programu algoritmus:
+            <ol>
+              <li>zobrazit confirm</li>
+              <li>vzít výsledek confirm</li>
+              <li>použít <strong>IF</strong></li>
+              <li>zobrazit buďto v alert buďto <strong>OK</strong> nebo <strong>BAD</strong> </li>
+            </ol>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Co dál?</h2>
+    <p>Pokud se vám bude chtít, tak příště si můžeme ukázat:</p>
+    <ul>
+      <li>javascript: pole, cykly</li>
+      <li>javascript: objekty</li>
+      <li>Manipulaci s DOM (document object model)</li>
+      <li>Další browser API - třeba localstorage</li>
+      <li>Manipulaci s formulářem</li>
+      <li><strong>To už budete umět něco užitečného!</strong></li>
+      <li>JSON!</li>
+      <li>stažení JSONu</li>
+    </ul>
+  </body>
+
+  <script>
+
+    function kliknulJsem() {
+      alert('Jo, jdeš na to tyvole, právě jsi naprogramoval tlačítko, co zobrazuje tenhle strašně užitečný text!')
+    }
+
+    var vojta = 'curak';
+
+    (function() {
+      console.log(this)
+    })()
+  </script>
+</html>
