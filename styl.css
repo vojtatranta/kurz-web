@@ -1,0 +1,24 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background: #602215;
+  color: white;
+}
+
+ol {
+  font-weight: normal;
+}
+
+ol ul {
+  font-weight: bold;
+}
+
+.tucne {
+}
+
+.vetsi.tucne {
+  font-size: 40px;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styl.css" />
+    <title>Moje první stránka</title>
+
+    <script>
+      function naladovac() {
+        var jakSeMas = confirm("Máš se dobře?");
+
+        if (jakSeMas) {
+          alert(":)");
+        } else {
+          alert(":((");
+        }
+      }
+
+      // var cislo = 10000000000;
+
+      // var text = "tohle je text";
+
+      // var ovladacTlacitka = function () {
+      //   // 1. vybrat čemu chceme změnit barvu
+      //   var telo = document.body;
+
+      //   // 2. vybrat si barvu, jakou použít na přebarvení
+      //   var barvaKPrebarveni = "black";
+
+      //   // 3. nastavit vybranou barvu jako pozadí stránky
+      //   telo.style.backgroundColor = barvaKPrebarveni;
+      // };
+    </script>
+  </head>
+  <body>
+    <h1>Píšeme si poznámky ke kurzu o Javascriptu</h1>
+    <p>
+      <button onclick="naladovac();">Zeptat se na náladu</button>
+    </p>
+    <p>První <span class="tucne vetsi">tohle chci tucne</span>.</p>
+    <p>Druhý odstavec.</p>
+    <ol>
+      <li>První položka</li>
+      <li>Druhá položka</li>
+      <ul>
+        <li>Toto je vnořená položka o jednu úroveň</li>
+      </ul>
+    </ol>
+    <ul>
+      <li>Netučné</li>
+    </ul>
+    <div>Tohle je prostý blok</div>
+    <span>Tohle není blok</span>
+  </body>
+</html>
